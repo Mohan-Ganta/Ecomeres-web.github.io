@@ -473,6 +473,10 @@ th:last-child{
     background: radial-gradient(rgba(255, 255, 255, 0.76),#f7d6ff);
 
 }
+.container{
+    background: radial-gradient(rgba(255, 255, 255, 0.76),#f7d6ff);
+
+}
 .form-box{
     background: #fff;
     width: 300px;
@@ -484,10 +488,17 @@ th:last-child{
     box-shadow:0 0 20px rgb(255, 110, 6);
     overflow: hidden;
 }
+.form-box{
+
+    background-image: url("PHOTES/images/category-1.jpg") ;
+    background-position: center;
+    background-size: 122%;
+
+}
 .form-box span{
     font-weight: bold;
     padding: 0 10px;
-    color: #555;
+    color: #fff;
     cursor: pointer;
     width: 100px;
     display: inline-block;
